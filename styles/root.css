@@ -1,0 +1,14 @@
+:root
+{
+    --base-color: #1d1e21;
+    --base-darker-color: #151617;
+    --base-lighter-color: #26282c;
+    --base-lightest-color: #33353b;
+    --secondary-color: #8742f5;
+    --secondary-darker-color: #6c38bf;
+    --white-color: #c9cbd1;
+    --gray-color: #8d8f95;
+
+    --base-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}

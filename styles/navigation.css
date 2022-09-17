@@ -1,0 +1,209 @@
+div.nav-87xaA4
+{
+    width: 100%;
+    height: 4rem;
+
+    background: var(--base-color);
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    top: 0%;
+    left: 0%;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    position: absolute;
+}
+
+div.nav-87xaA4 a,
+div.nav-87xaA4 a li
+{
+    display: inline-block;
+}
+
+div.nav-87xaA4 a
+{
+    text-decoration: none;
+
+    color: var(--white-color);
+
+    margin-right: 12px;
+
+    border-bottom: 3px solid transparent;
+
+    transition: all 256ms ease;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+div.nav-87xaA4 a:hover
+{
+    border-bottom: 1px solid var(--white-color);
+
+    text-shadow: 0 0 6px var(--white-color);
+}
+
+div.nav-87xaA4 a li
+{
+    margin: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+div.nav-87xaA4 .absolutesection-4aa9s0 { transition: all 256ms ease; cursor: pointer; display: flex; justify-content: center; align-items: center; top: 50%; transform: translateY(-50%); position: absolute; }
+
+div.nav-87xaA4 .absolutesection-4aa9s0 .search-svg-area { transition: all 256ms ease; margin-left: 24px; }
+div.nav-87xaA4 .absolutesection-4aa9s0 .command-svg-area { transition: all 256ms ease; margin-left: 168px; }
+div.nav-87xaA4 .absolutesection-4aa9s0 .textCustomized-48sa4A { transition: all 256ms ease; color: var(--white-color); font-family: 'Courier New', Courier, monospace; font-size: 20px; text-align: center; }
+
+div.nav-87xaA4 .searchbutton-XUasn4
+{
+    padding: 8px 0;
+
+    margin-left: 12px;
+
+    width: 256px;
+
+    background: var(--base-lighter-color);
+
+    color: var(--secondary-color);
+
+    outline: none;
+
+    border: 1px solid var(--secondary-color);
+
+    cursor: pointer;
+
+    border-radius: 12px;
+
+    text-align: left;
+
+    transition: all 256ms ease;
+}
+
+div.nav-87xaA4 .absolutesection-4aa9s0:hover .searchbutton-XUasn4,
+div.nav-87xaA4 .searchbutton-XUasn4:hover,
+div.nav-87xaA4 .searchbutton-XUasn4:focus,
+div.nav-87xaA4 .searchsection-XJa2sk:hover .searchbutton-XUasn4
+{
+    background: var(--base-lightest-color);
+}
+
+div.nav-87xaA4 .searchbutton-XUasn4 .searchbuttontext-Smadn2
+{
+    margin-left: 38px;
+    cursor: pointer;
+}
+
+div.undersection-MacH82
+{
+    top: 4rem;
+    left: 0%;
+
+    width: 100%;
+    height: 12rem;
+    
+    display: flex;
+
+    position: absolute;
+}
+
+div.undersection-MacH82 div.firstimage-SDNa29
+{
+    width: 100%;
+    height: calc(100vh - 4rem);
+
+    top: 0;
+
+    background: url("https://i.redd.it/e1569zmb7t161.png");
+    background-repeat: repeat;
+    background-size: 50%;
+
+    position: absolute;
+}
+
+div.undersection-MacH82 div.secondlayout-RR8s2N
+{
+    width: 100%;
+    height: calc(100vh - 4rem);
+
+    top: 0;
+
+    position: absolute;
+}
+
+div.undersection-MacH82 div.buttonsection-DJnas2
+{
+    z-index: 15;
+
+    width: 100%;
+    height: max-content;
+
+    top: 45vh;
+
+    transform: translateY(-50%);
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+
+    position: absolute;
+}
+
+div.undersection-MacH82 div.buttonsection-DJnas2 .textwhite-MNs82K
+{
+    color: var(--white-color);
+
+    font-size: 32px;
+    font-family: var(--secondary-font);
+
+    margin-bottom: 12px;
+}
+
+.flex-col { flex-direction: column; justify-content: center; align-items: center; }
+.flex-row { flex-direction: row; justify-content: center; align-items: center; }
+
+div.undersection-MacH82 div.buttonsection-DJnas2 button
+{
+    width: 230px;
+
+    padding: 14px 42px;
+
+    margin: 4px 8px;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    font-size: 18px;
+
+    outline: none;
+
+    border-radius: 12px;
+    border: 1px solid var(--base-color);
+
+    font-family: var(--secondary-font);
+    font-weight: 600;
+
+    box-shadow: 0 0 14px 2px var(--base-color);
+
+    color: var(--white-color);
+
+    transition: all 196ms ease;
+}
+
+div.undersection-MacH82 div.buttonsection-DJnas2 button:hover
+{
+    transform: translateY(-3px);
+    text-shadow: 0 0 6px var(--white-color);
+}
+
+div.undersection-MacH82 div.buttonsection-DJnas2 button.purplethemed-button { background: linear-gradient(var(--secondary-color), var(--secondary-darker-color)); }
+div.undersection-MacH82 div.buttonsection-DJnas2 button.graythemed-button { background: linear-gradient(var(--base-color), var(--base-darker-color)); }

@@ -1,0 +1,13 @@
+#root.web-mount
+{
+    width: 100%;
+    height: 100vh;
+
+    font-family: var(--base-font);
+
+    background: var(--base-color);
+}
+
+html, body { background: var(--base-color); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
